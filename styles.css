@@ -56,6 +56,13 @@ h1 {
 	border-bottom: 1px solid black;
 }
 
+.button-wrapper {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
 	body {
@@ -78,6 +85,10 @@ h1 {
 	.links a {
 		font-size: 0.9rem;
 	}
+
+	.button-wrapper {
+		margin-top: 1.5rem;
+	}
 }
 
 @media (max-width: 480px) {
@@ -92,5 +103,9 @@ h1 {
 	.links {
 		flex-direction: column;
 		gap: 1rem;
+	}
+
+	.button-wrapper {
+		margin-top: 1rem;
 	}
 }
